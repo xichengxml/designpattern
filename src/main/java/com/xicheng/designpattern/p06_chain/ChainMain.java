@@ -26,8 +26,8 @@ public class ChainMain {
         AuthorityHandler authorityHandler = new AuthorityHandler();
         SensitiveWordsHandler sensitiveWordsHandler = new SensitiveWordsHandler();
 
-        authorityHandler.setNext(sensitiveWordsHandler);
         frequencyLimitHandler.setNext(authorityHandler);
+        authorityHandler.setNext(sensitiveWordsHandler);
 
         System.out.println(frequencyLimitHandler.process(chainRequest));
     }

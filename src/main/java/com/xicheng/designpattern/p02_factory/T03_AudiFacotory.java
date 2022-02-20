@@ -1,6 +1,5 @@
 package com.xicheng.designpattern.p02_factory;
 
-import com.xicheng.designpattern.p02_factory.T03_FactoryMethod;
 import com.xicheng.designpattern.p02_factory.common.Audi;
 import com.xicheng.designpattern.p02_factory.common.Car;
 

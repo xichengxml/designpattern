@@ -1,6 +1,5 @@
 package com.xicheng.designpattern.p04_proxy;
 
-import com.xicheng.designpattern.p04_proxy.common.Movable;
 import com.xicheng.designpattern.p04_proxy.common.Tank;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,9 +7,7 @@ import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 import java.util.Arrays;
 
 /**

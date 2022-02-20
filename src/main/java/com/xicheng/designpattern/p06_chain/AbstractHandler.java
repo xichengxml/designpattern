@@ -1,7 +1,7 @@
 package com.xicheng.designpattern.p06_chain;
 
 /**
- * description
+ * description 承担实现链表的功能
  *
  * @author xichengxml
  * @date 2021/2/10 下午 10:49
